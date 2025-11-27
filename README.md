@@ -54,17 +54,12 @@ npm install
 ---
 
 ## ▶️ Generate PDF
+The generated PDF will appear here:
 ```bash
 node scripts/make-pdf.js
 
 ```
 
-The generated PDF will appear here:
-
-```graphql
-node scripts/make-pdf.js
-
-```
 ---
 
 ## 🧰 Technologies Used

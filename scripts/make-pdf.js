@@ -4,24 +4,29 @@ const puppeteer = require("puppeteer");
 
 (async () => {
     try {
-        // Path to HTML file (renamed to index.html)
-        const htmlPath = path.join(__dirname, "..", "index.html");
+        const root = path.join(__dirname, "..");
 
-        if (!fs.existsSync(htmlPath)) {
-            console.error("❌ HTML file not found:", htmlPath);
-            process.exit(1);
-        }
+        // Read HTML
+        const htmlPath = path.join(root, "index.html");
+        let html = fs.readFileSync(htmlPath, "utf8");
 
-        const htmlUrl = "file://" + htmlPath.replace(/\\/g, "/");
+        // Replace ALL relative image paths with absolute file:// paths
+        html = html.replace(/src="([^"]+)"/g, (match, p1) => {
+            // Ignore external links
+            if (p1.startsWith("http")) return match;
 
-        // Output folder
-        const outputDir = path.join(__dirname, "..", "storage", "pdf");
-        const pdfFile = path.join(outputDir, "resume-oleksandr-stanov.pdf");
+            const absPath = "file://" + path.join(root, p1).replace(/\\/g, "/");
+            return `src="${absPath}"`;
+        });
 
-        // Create folder if missing
-        if (!fs.existsSync(outputDir)) {
-            fs.mkdirSync(outputDir, { recursive: true });
-        }
+        // Save TEMP HTML for Puppeteer
+        const tempPath = path.join(root, "storage", "temp_render.html");
+        fs.writeFileSync(tempPath, html);
+
+        const pdfDir = path.join(root, "storage", "pdf");
+        if (!fs.existsSync(pdfDir)) fs.mkdirSync(pdfDir, { recursive: true });
+
+        const pdfFile = path.join(pdfDir, "resume-oleksandr-stanov.pdf");
 
         const browser = await puppeteer.launch({
             headless: "new",
@@ -29,21 +34,22 @@ const puppeteer = require("puppeteer");
         });
 
         const page = await browser.newPage();
-        await page.goto(htmlUrl, { waitUntil: "networkidle0" });
+        await page.goto("file://" + tempPath.replace(/\\/g, "/"), {
+            waitUntil: "networkidle0"
+        });
 
         await page.pdf({
             path: pdfFile,
             format: "A4",
             printBackground: true,
-            margin: { top: "0mm", right: "0mm", bottom: "0mm", left: "0mm" }
+            margin: { top: 0, right: 0, bottom: 0, left: 0 },
         });
 
         await browser.close();
-        console.log("✅ PDF successfully generated:");
-        console.log("→ " + pdfFile);
+
+        console.log("✅ PDF ready:", pdfFile);
 
     } catch (err) {
-        console.error("❌ Error generating PDF:", err);
-        process.exit(1);
+        console.error("❌ Error:", err);
     }
 })();
