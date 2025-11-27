@@ -1,19 +1,20 @@
+
+# 📘 SA Resume PDF Generator
+
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Puppeteer-PDF%20Rendering-00b5ad?style=for-the-badge&logo=puppeteer&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML%20→%20PDF-Generator-orange?style=for-the-badge&logo=google-chrome&logoColor=white" />
-  <img src="https://img.shields.io/badge/Platform-Cross--platform-blue?style=for-the-badge&logo=windows-terminal&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cross--platform-Build-blue?style=for-the-badge&logo=windows-terminal&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge&logo=vercel&logoColor=white" />
 </p>
 
-
-
-# 📘 Stanov Resume PDF Generator
-
-Stanov Resume PDF Generator is a lightweight Node.js tool that converts a clean, modern HTML resume into a ready-to-use PDF file.
+### Fast, Reliable & Pixel-Perfect Resume Export Tool 🚀
+SA Resume PDF Generator is a lightweight Node.js tool that converts a clean, modern HTML resume into a ready-to-use PDF file.
 The project uses Puppeteer to generate high-quality, print-ready PDF documents with full CSS support, images, shadows, and layout precision.
 
+> A professional HTML-to-PDF resume rendering engine for consistent, high-quality output.
 ---
 
 ## 🚀 Features
